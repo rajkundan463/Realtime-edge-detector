@@ -17,6 +17,8 @@ android {
         externalNativeBuild {
             cmake {
                 cppFlags '-std=c++17'
+                // This line fixes the linker error by including the C++ standard library
+                arguments "-DANDROID_STL=c++_shared"
             }
         }
     }
