@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\Realtime-edge-detector\openCV\.cxx\Debug\4so482x6\x86_64'
+ninja: no work to do.
