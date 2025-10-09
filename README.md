@@ -48,7 +48,8 @@ app → Android (Java/Kotlin) code: Camera + UI
 git clone https://github.com/<your-username>/<your-repo>.git
 -
 
-###3. Android Setup
+### 3. Android Setup
+
 
 Import the project into Android Studio.
 
@@ -61,7 +62,7 @@ Add OpenCV SDK as a dependency (app/build.gradle).
 
 Build & run the Android app on a real device.
 
-4. Web Viewer Setup
+### 4. Web Viewer Setup
 cd web
 npm install
 tsc
