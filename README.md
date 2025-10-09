@@ -48,7 +48,7 @@ app → Android (Java/Kotlin) code: Camera + UI
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
 
-3. Android Setup
+###3. Android Setup
 
 Import the project into Android Studio.
 
@@ -88,28 +88,3 @@ Web (TypeScript) → Shows a static sample processed frame with overlay stats.
 
 ---
 
-##  Setup Instructions  
-
-### 1. Prerequisites  
-- Android Studio (latest stable).  
-- Android SDK + NDK installed.  
-- OpenCV SDK for Android.  
-- Node.js + TypeScript (for web viewer).  
-
-### 2. Clone Repository  
-```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-
-3. Android Setup
-
-Import the project into Android Studio.
-
-Configure NDK path in local.properties:
-
-ndk.dir=/path/to/ndk
-
-
-Add OpenCV SDK as a dependency (app/build.gradle).
-
-Build & run the Android app on a real device.
