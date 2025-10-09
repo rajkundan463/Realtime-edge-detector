@@ -48,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(gLView);
     }
 
-    // This method is called after the user responds to the permission request popup
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -62,7 +61,5 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    // Native JNI declaration for sending camera data to C++.
-    // We will use this later when the camera is running.
     public native void processFrame(byte[] frameData, int width, int height);
 }
