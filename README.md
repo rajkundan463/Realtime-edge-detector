@@ -44,9 +44,9 @@ app → Android (Java/Kotlin) code: Camera + UI
 - Node.js + TypeScript (for web viewer).  
 
 ### 2. Clone Repository  
-```bash
+
 git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+-
 
 ###3. Android Setup
 
